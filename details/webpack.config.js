@@ -37,24 +37,14 @@ module.exports = {
         ]
       },
       {
-        test: /.less$/,
+        test: /\.(c|le)ss$/,
         use: [
-          'style-loader',
+          'style.loader',
           {
             loader: MiniCssExtractPlugin.loader
           },
           'css-loader',
           'less-loader'
-        ]
-      },
-      {
-        test: /.css$/,
-        use: [
-          'style-loader',
-          {
-            loader: MiniCssExtractPlugin.loader
-          },
-          'css-loader'
         ]
       },
       {
