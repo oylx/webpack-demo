@@ -1,5 +1,5 @@
 {
-  "name": "webpack-examples-basic",
+  "name": "webpack-demo-basic",
   "version": "1.0.0",
   "description": "",
   "main": "dist/bundle.js",
@@ -7,7 +7,7 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development"
   },
-  "author": "teabyii <teabyii@gmail.com>",
+  "author": "oylx <oylx2008@163.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.6.4",
@@ -27,7 +27,5 @@
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.9.0"
   },
-  "dependencies": {
-    "@babel/plugin-syntax-dynamic-import": "^7.2.0"
-  }
+  "dependencies": {}
 }
