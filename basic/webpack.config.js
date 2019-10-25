@@ -19,7 +19,6 @@ module.exports = {
           path.resolve(__dirname, 'src'),
         ],
         use: [
-          //libraryName要写，否则报错
           {
             loader: 'babel-loader',
             options: {
